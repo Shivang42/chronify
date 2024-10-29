@@ -1,0 +1,18 @@
+.dashboard .events::-webkit-scrollbar{
+    background:#00000012 !important;
+}
+.dashboard .events::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,0.2) !important;border-radius:3rem;
+}
+.dashboard{
+    /* outline:2px solid green !important; */
+}
+@keyframes shimmering {
+    0% {
+        background-size: 95%;
+    }
+
+    100% {
+        background-size:  400%;
+    }
+}
